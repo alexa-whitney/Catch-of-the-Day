@@ -2,7 +2,7 @@ import Rebase from 're-base';
 import firebase from 'firebase';
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyDiTpcY2FiLVFXuOZGXVU_Sk2SFCHO1nTc",
+  apiKey: "{process.env.REACT_APP_FIREBASE_API_KEY}",
   authDomain: "catch-of-the-day-alexa-whitney.firebaseapp.com",
   databaseURL: "https://catch-of-the-day-alexa-whitney-default-rtdb.firebaseio.com",
 });
